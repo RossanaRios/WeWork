@@ -1,0 +1,10 @@
+// Import Settings
+@use './base/settings';
+@use './base/reset';
+// Import components
+
+@use './components/navbar';
+@use './components/home';
+@use './components/search';
+
+//Screens

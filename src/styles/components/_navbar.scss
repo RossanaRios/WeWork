@@ -1,0 +1,54 @@
+.topnav {
+  overflow: hidden;
+}  
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0 30px 16px 0;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0;
+}
+.topnav a:hover {
+  text-decoration: underline; 
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: inherit;
+}
+.topnav .icon {
+  display: none;
+}
+.App-navbar{
+  a {
+    position: relative;
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  }
+}
+
+
+  

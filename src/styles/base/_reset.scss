@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    background-color: var(--body-background)!important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+}
+.App-container{
+    margin: 20px 0 0 0;
+    padding: 0 36px 0 36px;
+}
